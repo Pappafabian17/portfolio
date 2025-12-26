@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "next": "16.1.1",
+    "next-intl": "^4.6.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
@@ -19,7 +20,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
-    "sass":"^1.77.8",
+    "sass": "^1.77.8",
     "typescript": "^5"
   }
 }
