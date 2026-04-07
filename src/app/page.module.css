@@ -1,0 +1,36 @@
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+.langSelector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.langLabel {
+  font-size: 0.875rem;
+}
+.langSelect {
+  padding: 0.35rem 0.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 0.375rem;
+  background-color: #ffffff;
+}
+.section {
+  margin-top: 3rem;
+}
+.projectItem {
+  margin-bottom: 1rem;
+}
