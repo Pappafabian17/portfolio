@@ -1,0 +1,251 @@
+{
+  "name": "Fabian Pappa",
+  "title": {
+    "es": "Desarrollador Frontend (React.js) | Licenciatura en Desarrollo de Software",
+    "en": "Frontend Developer (React.js) | Bachelor's in Software Development",
+    "it": "Sviluppatore Frontend (React.js) | Laurea in Sviluppo Software"
+  },
+  "location": "Mar del Plata, Buenos Aires Province, Argentina",
+  "contact": {
+    "linkedin": "https://www.linkedin.com/in/fabian-pappa-06198614a"
+  },
+  "summary": {
+    "es": "Soy un desarrollador frontend con una fuerte pasión por la colaboración, el aprendizaje continuo y la participación en proyectos que me desafíen y me ayuden a crecer. Me interesa especialmente construir experiencias de usuario limpias, accesibles y bien pensadas. Disfruto trabajando con personas de diferentes orígenes y contribuyendo no solo técnica, sino también humanamente. Antes de entrar en el mundo IT, trabajé durante más de cinco años en atención al cliente y ventas, y también serví como misionero de tiempo completo durante dos años, asumiendo roles de liderazgo y operativos. Esas experiencias formaron al comunicador, compañero de equipo y profesional comprometido que soy hoy. También he tenido la oportunidad de capacitar e incorporar a nuevos miembros del equipo para que asumieran mis responsabilidades cuando hice la transición a otros proyectos, asegurando una transferencia de conocimientos efectiva y la continuidad del equipo. Actualmente, estoy ampliando mis habilidades hacia el backend para convertirme en un desarrollador más completo, mientras sigo creciendo en mi pasión por el desarrollo frontend.",
+    "en": "I'm a frontend developer with a strong passion for collaboration, continuous learning, and taking part in projects that challenge me and help me grow. I'm especially interested in building clean, accessible, and thoughtful user experiences. I enjoy working with people from different backgrounds and contributing not only technically, but also on a human level. Before entering the IT world, I worked for over five years in customer service and sales, and also served as a full-time missionary for two years, taking on leadership and operational roles. Those experiences shaped the communicator, team player, and committed professional I am today. I've also had the opportunity to train and onboard new team members to take over my responsibilities when I transitioned to other projects, ensuring effective knowledge transfer and team continuity. Currently, I'm expanding my skills toward the backend to become a more well-rounded developer, while continuing to grow in my passion for frontend development.",
+    "it": "Sono uno sviluppatore frontend con una forte passione per la collaborazione, l'apprendimento continuo e la partecipazione a progetti che mi sfidano e mi aiutano a crescere. Mi interessa particolarmente costruire esperienze utente pulite, accessibili e curate. Mi piace lavorare con persone di contesti diversi e contribuire non solo tecnicamente, ma anche a livello umano. Prima di entrare nel mondo IT, ho lavorato per oltre cinque anni nel servizio clienti e nelle vendite, e ho anche servito come missionario a tempo pieno per due anni, ricoprendo ruoli di leadership e operativi. Quelle esperienze hanno plasmato il comunicatore, il compagno di squadra e il professionista impegnato che sono oggi. Ho anche avuto l'opportunità di formare e inserire nuovi membri del team affinché assumessero le mie responsabilità durante la transizione verso altri progetti, garantendo un efficace trasferimento di conoscenze e la continuità del team. Attualmente, sto ampliando le mie competenze verso il backend per diventare uno sviluppatore più completo, continuando a coltivare la mia passione per lo sviluppo frontend."
+  },
+  "skills": [
+    "Python",
+    "Multidisciplinary Team Leadership",
+    "Scrum",
+    "JavaScript",
+    "React.js",
+    "Frontend Development",
+    "Full Stack Development"
+  ],
+  "certifications": [
+    "Fundamentals of Agile Project Management",
+    "Web Development Fundamentals: Full Stack or Front-end",
+    "Advanced Full Stack Developer Certification",
+    "Effective Project and Team Management"
+  ],
+  "experience": [
+    {
+      "company": "Errepar",
+      "role": {
+        "es": "Desarrollador Frontend",
+        "en": "Front-end Developer",
+        "it": "Sviluppatore Frontend"
+      },
+      "start_date": "2023-02",
+      "end_date": null,
+      "current": true,
+      "duration": "3 años 3 meses",
+      "location": "Mar del Plata, Buenos Aires Province, Argentina",
+      "description": {
+        "es": "Trabajo como desarrollador frontend contribuyendo al portal web principal y a diversas herramientas internas, incluyendo paneles de administración y aplicaciones de gestión. Asumí un rol más senior ayudando en decisiones técnicas, estimación de tareas y mentoría de otros desarrolladores. Actualmente trabajo en un nuevo motor de búsqueda impulsado por IA, siendo el responsable total del desarrollo frontend.",
+        "en": "Working as a frontend developer contributing to the main web portal and various internal tools, including admin dashboards and management apps. Took on a more senior role helping with technical decisions, task estimations, and mentoring other developers. Currently working on a new AI-powered search engine, fully responsible for the frontend development.",
+        "it": "Lavoro come sviluppatore frontend contribuendo al portale web principale e a vari strumenti interni, tra cui dashboard di amministrazione e app gestionali. Ho assunto un ruolo più senior aiutando nelle decisioni tecniche, nella stima dei compiti e nel mentoring di altri sviluppatori. Attualmente lavoro su un nuovo motore di ricerca basato sull'IA, essendo il responsabile totale dello sviluppo frontend."
+      },
+      "responsibilities": {
+        "es": [
+          "Testing, corrección de errores y despliegues a producción",
+          "Estimación y planificación de tareas",
+          "Comunicación regular con los equipos de producto, diseño, backend y QA",
+          "Mejora continua de la experiencia de usuario y la calidad del código",
+          "Mentoría de otros desarrolladores"
+        ],
+        "en": [
+          "Testing, bug fixes, and production deployments",
+          "Estimating and planning tasks",
+          "Communicating regularly with product, design, backend, and QA teams",
+          "Continuously improving user experience and code quality",
+          "Mentoring other developers"
+        ],
+        "it": [
+          "Testing, correzione di bug e rilasci in produzione",
+          "Stima e pianificazione delle attività",
+          "Comunicazione regolare con i team di prodotto, design, backend e QA",
+          "Miglioramento continuo dell'esperienza utente e della qualità del codice",
+          "Mentoring di altri sviluppatori"
+        ]
+      }
+    },
+    {
+      "company": "ReplaceIT",
+      "role": {
+        "es": "Desarrollador Frontend",
+        "en": "Front-end Developer",
+        "it": "Sviluppatore Frontend"
+      },
+      "start_date": "2023-01",
+      "end_date": null,
+      "current": true,
+      "duration": "3 años 4 meses",
+      "location": "Mar del Plata, Buenos Aires Province, Argentina",
+      "description": {
+        "es": "Desarrollador frontend en una consultora tecnológica participando en una variedad de proyectos para clientes y productos de la empresa, incluyendo Endoclasify, sitios web de clientes y herramientas internas como [Re]-Bot.",
+        "en": "Frontend developer at a tech consultancy involved in a variety of projects for clients and company products, including Endoclasify, client websites, and internal tools such as [Re]-Bot.",
+        "it": "Sviluppatore frontend presso una società di consulenza tecnologica, coinvolto in vari progetti per clienti e prodotti aziendali, tra cui Endoclasify, siti web di clienti e strumenti interni come [Re]-Bot."
+      },
+      "responsibilities": {
+        "es": [
+          "Construcción de interfaces para aplicaciones nuevas y existentes",
+          "Apoyo a compañeros en otros proyectos de clientes",
+          "Participación en reuniones con clientes para entender necesidades y validar entregables",
+          "Prototipado y presentación de funcionalidades para propuestas de productos internos",
+          "Realización de sesiones básicas de capacitación sobre herramientas y flujos de trabajo",
+          "Participación en entrevistas informales para evaluar nuevos candidatos"
+        ],
+        "en": [
+          "Building interfaces for new and existing applications",
+          "Supporting teammates on other client projects",
+          "Joining client meetings to understand needs and validate deliverables",
+          "Prototyping and presenting features for internal product pitches",
+          "Running basic training sessions on tools and workflows",
+          "Participating in informal interviews to evaluate new candidates"
+        ],
+        "it": [
+          "Creazione di interfacce per applicazioni nuove ed esistenti",
+          "Supporto ai colleghi in altri progetti per i clienti",
+          "Partecipazione a riunioni con i clienti per comprendere le esigenze e convalidare i deliverable",
+          "Prototipazione e presentazione di funzionalità per proposte di prodotti interni",
+          "Conduzione di sessioni di formazione di base su strumenti e flussi di lavoro",
+          "Partecipazione a colloqui informali per valutare nuovi candidati"
+        ]
+      }
+    },
+    {
+      "company": "Distribuidora Jade Takem S.A.",
+      "role": {
+        "es": "Encargado de Ventas",
+        "en": "Sales Manager",
+        "it": "Responsabile Vendite"
+      },
+      "start_date": "2021-07",
+      "end_date": "2022-02",
+      "current": false,
+      "duration": "8 meses",
+      "location": null,
+      "description": {
+        "es": "Vendedor y líder de sector responsable del buen funcionamiento y la organización en el área de ventas.",
+        "en": "Salesperson and sector lead responsible for smooth operations and organization on the sales floor.",
+        "it": "Addetto alle vendite e responsabile di settore, incaricato del corretto funzionamento e dell'organizzazione nell'area vendite."
+      },
+      "responsibilities": {
+        "es": [
+          "Realización de pedidos de mercadería según necesidades de stock",
+          "Gestión de inventario y exhibición de productos",
+          "Coordinación de los miembros del equipo para la atención al cliente",
+          "Supervisión del área de ventas y resolución de problemas operativos diarios",
+          "Mantenimiento de un ambiente de trabajo eficiente y orientado a resultados"
+        ],
+        "en": [
+          "Placing merchandise orders based on stock needs",
+          "Managing inventory and product displays",
+          "Coordinating team members for customer service",
+          "Overseeing the sales area and handling daily operational issues",
+          "Maintaining an efficient and results-oriented work environment"
+        ],
+        "it": [
+          "Effettuazione di ordini di merce in base alle esigenze di stock",
+          "Gestione dell'inventario e dell'esposizione dei prodotti",
+          "Coordinamento dei membri del team per il servizio clienti",
+          "Supervisione dell'area vendite e gestione dei problemi operativi quotidiani",
+          "Mantenimento di un ambiente di lavoro efficiente e orientato ai risultati"
+        ]
+      }
+    },
+    {
+      "company": "The Church of Jesus Christ of Latter-day Saints",
+      "role": {
+        "es": "Misionero Voluntario",
+        "en": "Volunteer Missionary",
+        "it": "Missionario Volontario"
+      },
+      "start_date": "2019-03",
+      "end_date": "2021-03",
+      "current": false,
+      "duration": "2 años 1 mes",
+      "location": "Salta, Argentina",
+      "description": {
+        "es": "Ocupé diversos roles de liderazgo y operativos durante el servicio misional voluntario, liderando progresivamente grupos más grandes hasta apoyar a 189 misioneros como asistente del presidente de misión.",
+        "en": "Held various leadership and operational roles during volunteer missionary service, progressively leading larger groups up to supporting 189 missionaries as assistant to the mission president.",
+        "it": "Ho ricoperto vari ruoli di leadership e operativi durante il servizio missionario volontario, guidando progressivamente gruppi sempre più numerosi fino a supportare 189 missionari come assistente del presidente di missione."
+      },
+      "responsibilities": {
+        "es": [
+          "Liderazgo de grupos de 8, luego 16, y finalmente apoyo a 189 misioneros",
+          "Recopilación y reporte de actualizaciones semanales y mensuales de los líderes de zona",
+          "Organización de sesiones de capacitación semanales y mensuales",
+          "Establecimiento de metas y creación de planes de acción para el desarrollo del equipo",
+          "Monitoreo del bienestar y progreso individual",
+          "Gestión de más de 90 unidades de vivienda, incluyendo alquiler, mantenimiento y servicios",
+          "Trabajo con departamentos administrativos, financieros y de registros"
+        ],
+        "en": [
+          "Leading groups of 8, then 16, then supporting 189 missionaries",
+          "Collecting and reporting weekly and monthly updates from zone leaders",
+          "Organizing weekly and monthly training sessions",
+          "Setting goals and building action plans for team development",
+          "Monitoring individual well-being and progress",
+          "Managing over 90 housing units including rent, maintenance, and utilities",
+          "Working with administrative, financial, and records departments"
+        ],
+        "it": [
+          "Guida di gruppi di 8, poi 16, e infine supporto a 189 missionari",
+          "Raccolta e rendicontazione di aggiornamenti settimanali e mensili dai leader di zona",
+          "Organizzazione di sessioni di formazione settimanali e mensili",
+          "Definizione di obiettivi e creazione di piani d'azione per lo sviluppo del team",
+          "Monitoraggio del benessere e del progresso individuale",
+          "Gestione di oltre 90 unità abitative, inclusi affitto, manutenzione e utenze",
+          "Collaborazione con i dipartimenti amministrativi, finanziari e dei registri"
+        ]
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "Brigham Young University - Idaho",
+      "degree": "Bachelor's degree",
+      "field": "Software Engineering",
+      "start_date": "2022-01",
+      "end_date": "2026",
+      "current": true
+    },
+    {
+      "institution": "Coderhouse",
+      "degree": "Application Development Career",
+      "field": "Computer Programming",
+      "start_date": "2023-08",
+      "end_date": "2024-05",
+      "current": false
+    },
+    {
+      "institution": "Coderhouse",
+      "degree": "Course",
+      "field": "React Development",
+      "start_date": "2024-01",
+      "end_date": "2024-03",
+      "current": false
+    },
+    {
+      "institution": "Coderhouse",
+      "degree": "Course",
+      "field": "JavaScript Development",
+      "start_date": "2023-10",
+      "end_date": "2024-01",
+      "current": false
+    },
+    {
+      "institution": "Coderhouse",
+      "degree": "Course",
+      "field": "Web Development",
+      "start_date": "2023-08",
+      "end_date": "2023-10",
+      "current": false
+    }
+  ],
+  "default_locale": "en",
+  "supported_locales": ["es", "en", "it"]
+}

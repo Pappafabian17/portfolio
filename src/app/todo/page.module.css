@@ -1,0 +1,257 @@
+/* ── Page wrapper ───────────────────────────────────────────── */
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3rem 1.5rem 6rem;
+  background-color: var(--surface);
+}
+
+/* ── Card ───────────────────────────────────────────────────── */
+.card {
+  width: 100%;
+  max-width: 520px;
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+/* ── Header ─────────────────────────────────────────────────── */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 1.75rem 0;
+}
+
+.back {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: color 0.15s;
+}
+
+.back:hover {
+  color: var(--accent);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+/* ── Input row ───────────────────────────────────────────────── */
+.inputRow {
+  display: flex;
+  gap: 0.625rem;
+  padding: 1.25rem 1.75rem 1rem;
+}
+
+.input {
+  flex: 1;
+  padding: 0.625rem 0.875rem;
+  border: 1.5px solid var(--border);
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  background-color: var(--bg);
+  transition: border-color 0.15s, box-shadow 0.15s;
+  outline: none;
+}
+
+.input::placeholder {
+  color: var(--text-muted);
+}
+
+.input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.12);
+}
+
+.addBtn {
+  padding: 0.625rem 1.25rem;
+  background-color: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s, transform 0.1s;
+  white-space: nowrap;
+}
+
+.addBtn:hover {
+  background-color: #4f46e5;
+  transform: translateY(-1px);
+}
+
+.addBtn:active {
+  transform: translateY(0);
+}
+
+/* ── Filters ─────────────────────────────────────────────────── */
+.filters {
+  display: flex;
+  gap: 0.25rem;
+  padding: 0 1.75rem 0.875rem;
+}
+
+.filterBtn {
+  padding: 0.3rem 0.75rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background-color: transparent;
+  cursor: pointer;
+  transition: color 0.15s, background-color 0.15s;
+}
+
+.filterBtn:hover {
+  color: var(--text-primary);
+  background-color: var(--surface);
+}
+
+.filterActive {
+  color: var(--accent);
+  background-color: var(--accent-light);
+}
+
+.filterActive:hover {
+  color: var(--accent);
+  background-color: var(--accent-light);
+}
+
+/* ── List ────────────────────────────────────────────────────── */
+.list {
+  border-top: 1px solid var(--border);
+}
+
+.empty {
+  padding: 2.5rem 1.75rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+/* ── Task item ───────────────────────────────────────────────── */
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  padding: 0.875rem 1.75rem;
+  border-bottom: 1px solid var(--border);
+  transition: background-color 0.1s;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item:hover {
+  background-color: var(--surface);
+}
+
+.item:hover .deleteBtn {
+  opacity: 1;
+}
+
+.itemDone .taskText {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+/* ── Checkbox ────────────────────────────────────────────────── */
+.checkbox {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border);
+  background-color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.15s, background-color 0.15s;
+}
+
+.checkbox:hover {
+  border-color: var(--accent);
+}
+
+.checkboxChecked {
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ── Task text ───────────────────────────────────────────────── */
+.taskText {
+  flex: 1;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+  transition: color 0.15s;
+}
+
+/* ── Delete button ───────────────────────────────────────────── */
+.deleteBtn {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0.375rem;
+  background-color: transparent;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+}
+
+.deleteBtn:hover {
+  background-color: #fee2e2;
+  color: #ef4444;
+}
+
+/* ── Footer ──────────────────────────────────────────────────── */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.875rem 1.75rem;
+  border-top: 1px solid var(--border);
+  background-color: var(--surface);
+}
+
+.count {
+  font-size: 0.775rem;
+  color: var(--text-muted);
+}
+
+.clearBtn {
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: 0.775rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.clearBtn:hover {
+  color: #ef4444;
+}
