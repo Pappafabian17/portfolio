@@ -51,10 +51,15 @@ export const translations: Record<Locale, Messages> = {
     },
     hero: {
       title: "Hi, I'm Fabian Pappa",
-      subtitle: "Frontend Developer building clean and business-focused digital products.",
+      subtitle:
+        "Frontend Developer building clean and business-focused digital products.",
       cta: "View Projects",
       ctaSecondary: "Contact Me",
-      highlights: ["3+ years experience", "Frontend + Product mindset", "AI-ready development"],
+      highlights: [
+        "3+ years experience",
+        "Frontend + Product mindset",
+        "AI-ready development",
+      ],
     },
     sections: {
       about: "About me",
@@ -77,7 +82,7 @@ export const translations: Record<Locale, Messages> = {
             "Resource hub for developers: CSS animations, color palettes, VS Code extensions, frameworks, and more. Built to be a quick reference during daily development.",
           url: "https://dev-tools-fp.netlify.app/",
           preview: "/assets/projects/devtools-preview.svg",
-          technologies: ["React", "TypeScript", "CSS Modules", "Vite"],
+          technologies: ["Javascript", "CSS", "HTML"],
         },
         {
           name: "NewsTime",
@@ -119,10 +124,15 @@ export const translations: Record<Locale, Messages> = {
     },
     hero: {
       title: "Hola, soy Fabian Pappa",
-      subtitle: "Desarrollador Frontend que crea productos digitales limpios y orientados a negocio.",
+      subtitle:
+        "Desarrollador Frontend que crea productos digitales limpios y orientados a negocio.",
       cta: "Ver Proyectos",
       ctaSecondary: "Contactame",
-      highlights: ["3+ anos de experiencia", "Mentalidad frontend + producto", "Desarrollo listo para IA"],
+      highlights: [
+        "3+ anos de experiencia",
+        "Mentalidad frontend + producto",
+        "Desarrollo listo para IA",
+      ],
     },
     sections: {
       about: "Sobre mi",
@@ -145,7 +155,7 @@ export const translations: Record<Locale, Messages> = {
             "Hub de recursos para desarrolladores: animaciones CSS, paletas de colores, extensiones de VS Code, frameworks y más. Pensado como referencia rápida en el día a día.",
           url: "https://dev-tools-fp.netlify.app/",
           preview: "/assets/projects/devtools-preview.svg",
-          technologies: ["React", "TypeScript", "CSS Modules", "Vite"],
+          technologies: ["Javascript", "CSS", "HTML"],
         },
         {
           name: "NewsTime",
@@ -187,10 +197,15 @@ export const translations: Record<Locale, Messages> = {
     },
     hero: {
       title: "Ciao, sono Fabian Pappa",
-      subtitle: "Sviluppatore Frontend che crea prodotti digitali puliti e orientati al business.",
+      subtitle:
+        "Sviluppatore Frontend che crea prodotti digitali puliti e orientati al business.",
       cta: "Vedi Progetti",
       ctaSecondary: "Contattami",
-      highlights: ["3+ anni di esperienza", "Mentalita frontend + prodotto", "Sviluppo pronto per IA"],
+      highlights: [
+        "3+ anni di esperienza",
+        "Mentalita frontend + prodotto",
+        "Sviluppo pronto per IA",
+      ],
     },
     sections: {
       about: "Chi sono",
@@ -213,7 +228,7 @@ export const translations: Record<Locale, Messages> = {
             "Hub di risorse per sviluppatori: animazioni CSS, palette di colori, estensioni VS Code, framework e altro. Progettato come riferimento rapido durante lo sviluppo quotidiano.",
           url: "https://dev-tools-fp.netlify.app/",
           preview: "/assets/projects/devtools-preview.svg",
-          technologies: ["React", "TypeScript", "CSS Modules", "Vite"],
+          technologies: ["Javascript", "CSS", "HTML"],
         },
         {
           name: "NewsTime",
