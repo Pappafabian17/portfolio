@@ -37,12 +37,6 @@ const EDUCATION_FIELD_LABELS: Record<string, Record<Locale, string>> = {
     it: "Sviluppo Web",
   },
 };
-function getInitialLocale(): Locale {
-  if (typeof window === "undefined") return "es";
-  const saved = window.localStorage.getItem("lang");
-  if (saved === "es" || saved === "en" || saved === "it") return saved;
-  return "es";
-}
 function formatDate(dateStr: string, present: string): string {
   if (!dateStr) return present;
   const [year, month] = dateStr.split("-");
@@ -52,8 +46,13 @@ function getEducationFieldLabel(field: string, locale: Locale): string {
   return EDUCATION_FIELD_LABELS[field]?.[locale] ?? field;
 }
 export default function HomePage() {
-  const [lang, setLang] = useState<Locale>(getInitialLocale);
+  const [lang, setLang] = useState<Locale>("es");
   const [activeSection, setActiveSection] = useState<NavSection>("about");
+  const [menuOpen, setMenuOpen] = useState(false);
+  useEffect(() => {
+    const saved = window.localStorage.getItem("lang");
+    if (saved === "es" || saved === "en" || saved === "it") setLang(saved);
+  }, []);
   useEffect(() => {
     window.localStorage.setItem("lang", lang);
   }, [lang]);
@@ -129,6 +128,41 @@ export default function HomePage() {
             ))}
           </select>
         </div>
+        <button
+          type="button"
+          className={styles.menuToggle}
+          onClick={() => setMenuOpen((o) => !o)}
+          aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}
+          aria-expanded={menuOpen}
+        >
+          {menuOpen ? (
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M4 4l12 12M16 4L4 16" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+            </svg>
+          ) : (
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+            </svg>
+          )}
+        </button>
+        {menuOpen && (
+          <nav className={styles.mobileMenu} aria-label="Navegación móvil">
+            {NAV_SECTIONS.map((section) => (
+              <a
+                key={section}
+                href={`#${section}`}
+                className={
+                  section === activeSection
+                    ? `${styles.mobileMenuLink} ${styles.mobileMenuLinkActive}`
+                    : styles.mobileMenuLink
+                }
+                onClick={() => setMenuOpen(false)}
+              >
+                {t.nav[section]}
+              </a>
+            ))}
+          </nav>
+        )}
       </header>
       <section id="home" className={styles.hero}>
         <div className={styles.heroText}>

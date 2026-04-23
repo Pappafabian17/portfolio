@@ -72,6 +72,14 @@ export const translations: Record<Locale, Messages> = {
       technologiesLabel: "Technologies",
       items: [
         {
+          name: "Dev Tools",
+          description:
+            "Resource hub for developers: CSS animations, color palettes, VS Code extensions, frameworks, and more. Built to be a quick reference during daily development.",
+          url: "https://dev-tools-fp.netlify.app/",
+          preview: "/assets/projects/devtools-preview.svg",
+          technologies: ["React", "TypeScript", "CSS Modules", "Vite"],
+        },
+        {
           name: "NewsTime",
           description:
             "News app built with vanilla JavaScript. It consumes an external API and includes search and favorites.",
@@ -132,6 +140,14 @@ export const translations: Record<Locale, Messages> = {
       technologiesLabel: "Tecnologias",
       items: [
         {
+          name: "Dev Tools",
+          description:
+            "Hub de recursos para desarrolladores: animaciones CSS, paletas de colores, extensiones de VS Code, frameworks y más. Pensado como referencia rápida en el día a día.",
+          url: "https://dev-tools-fp.netlify.app/",
+          preview: "/assets/projects/devtools-preview.svg",
+          technologies: ["React", "TypeScript", "CSS Modules", "Vite"],
+        },
+        {
           name: "NewsTime",
           description:
             "Aplicacion de noticias hecha con JavaScript puro. Consume una API externa e incluye buscador y favoritos.",
@@ -191,6 +207,14 @@ export const translations: Record<Locale, Messages> = {
       openProject: "Vedi progetto",
       technologiesLabel: "Tecnologie",
       items: [
+        {
+          name: "Dev Tools",
+          description:
+            "Hub di risorse per sviluppatori: animazioni CSS, palette di colori, estensioni VS Code, framework e altro. Progettato come riferimento rapido durante lo sviluppo quotidiano.",
+          url: "https://dev-tools-fp.netlify.app/",
+          preview: "/assets/projects/devtools-preview.svg",
+          technologies: ["React", "TypeScript", "CSS Modules", "Vite"],
+        },
         {
           name: "NewsTime",
           description:
